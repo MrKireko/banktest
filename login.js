@@ -11,7 +11,7 @@ $(document).ready(function(){
 	}**/
     $("#test").click(function() {
         $.ajax({
-            url : "http://m.uploadedit.com/b044/1421949603151.txt",
+            url : "http://mrkireko.github.io/banktest/test.txt",
             dataType: "text",
             success : function (data) {
                 $("#test").html(data);
